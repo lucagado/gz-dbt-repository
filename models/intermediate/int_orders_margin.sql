@@ -1,4 +1,6 @@
-SELECT
+ -- int_orders_margin.sql
+
+ SELECT
      orders_id,
      date_date,
      ROUND(SUM(revenue),2) as revenue,
